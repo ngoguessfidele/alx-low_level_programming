@@ -1,1 +1,1 @@
-This is for C programs
+For c programs
