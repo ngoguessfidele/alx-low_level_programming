@@ -1,12 +1,12 @@
 #include <stdio.h>
-/* 
- * This will print string followed by a new line
+/**
+ * main-  This will print string followed by a new line
+ *
+ * return: 0 success
  */
 
 int main(void)
 {
-	char str1[]="\"Programming is like building a multilingual puzzle\n";
-	puts(str1);
-
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return 0;
 }
