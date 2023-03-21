@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
- * printf fun
+/**
+ *main- this is the main fun
+ *
+ * Return: 0 success
  */
 int main(void)
 {
