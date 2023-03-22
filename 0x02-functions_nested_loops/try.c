@@ -1,10 +1,6 @@
-#include "main.h"
 
-/**
- * main- Entry point
- *
- * Return: 0 success
- */
+
+int _putchar(char c);
 
 int main(void)
 {
@@ -18,4 +14,9 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
+}
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
