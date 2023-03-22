@@ -12,7 +12,7 @@ void jack_bauer(void)
 
 	h_max = 58;
 	h_tens = '0';
-	whild (h_tens < '3')
+	while (h_tens < '3')
 	{
 		if (h_tens == '2')
 		{
