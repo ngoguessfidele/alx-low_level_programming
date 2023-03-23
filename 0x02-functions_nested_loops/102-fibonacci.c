@@ -21,7 +21,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%ld, ", n);
+			printf("%ld", n);
 		}
 		p = n + o;
 		n = o;
