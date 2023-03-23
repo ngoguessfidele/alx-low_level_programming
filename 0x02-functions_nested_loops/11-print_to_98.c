@@ -28,9 +28,8 @@ void print_to_98(int num)
 	}
 	else
 	{
-		printf("%d", num);
+		printf("98\n");
 	}
-	printf("98\n");
 }
 
 
