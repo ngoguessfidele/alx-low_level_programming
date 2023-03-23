@@ -3,7 +3,7 @@
 
 /**
  * print_to_98- prints to 98
- * @num
+ * @num: the integer
  *
  * Return: void
  */
@@ -26,7 +26,6 @@ void print_to_98(int num)
 			num--;
 		}
 	}
-	
 	printf("98\n");
 }
 
