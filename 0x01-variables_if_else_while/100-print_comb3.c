@@ -12,7 +12,7 @@ int main(void)
 
 	for (d1 = 48; d1 < 58; d1++)
 	{
-		for(d2 = 49; d2 < 58; d2++)
+		for (d2 = 49; d2 < 58; d2++)
 		{
 			if (d2 > d1)
 			{
