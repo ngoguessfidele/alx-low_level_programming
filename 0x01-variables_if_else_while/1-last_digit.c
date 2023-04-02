@@ -19,7 +19,7 @@ int main(void)
 	{
 		last_digit = n;
 	}
-	else if ((n >=10) || (n <= -10))
+	else if ((n >= 10) || (n <= -10))
 	{
 		last_digit = n % 10;
 	}
@@ -33,7 +33,8 @@ int main(void)
 	}
 	else if ((last_digit < 6) && (last_digit != 0))
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
+		printf("Last digit of %d is %d", n, last_digit);
+		printf("and is less than 6 and not 0\n");
 	}
 	return (0);
 }
