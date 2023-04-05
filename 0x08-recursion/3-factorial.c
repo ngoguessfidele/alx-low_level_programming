@@ -2,7 +2,7 @@
 
 /**
  * factorial- factorial of n
- * @n:
+ * @n: number
  * Return: recursion
  */
 int factorial(int n)
