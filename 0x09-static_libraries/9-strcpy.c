@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**_strcpy- any
  * @dest: dest
