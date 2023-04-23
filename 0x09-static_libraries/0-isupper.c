@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *  * _isupper- check for uppercase
- *   * @c: character
- *    *
- *     * Return: 1 if successful
- *      */
+ ** _isupper- check for uppercase
+ ** @c: character
+ **
+ ** Return: 1 if successful
+ **/
 
 int _isupper(int c)
 {
@@ -19,6 +19,5 @@ int _isupper(int c)
 	        	isupper = 1;
 			break;
 		}
-										}
 		return (isupper);
 }
