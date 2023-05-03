@@ -3,7 +3,7 @@
 
 /**
  * main- entry point
- * @agrc: number of arguments
+ * @argc: number of arguments
  * @argv: arguments
  *
  * Return: 0 on success
@@ -28,9 +28,9 @@ int main(int argc, char *argv[])
 		else if (amount >= 5)
 			amount = amount - 5;
 		else if (amount >= 2)
-			amount = amount -2;
+			amount = amount - 2;
 		else if (amount >= 1)
-			amount = amount - 1;;
+			amount = amount - 1;
 		coins = coins + 1;
 	}
 	printf("%d\n", coins);
