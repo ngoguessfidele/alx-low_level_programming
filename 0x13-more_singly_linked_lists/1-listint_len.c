@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * listint_len- give number of elements
+ * listint_len- gives the number of elements
  * @h: list
  *
  * Return: number of elements
@@ -13,7 +13,7 @@ size_t listint_len(const listint_t *h)
 	while (h != NULL)
 	{
 		h = h->next;
-		num++
+		num++;
 	}
 	return (num);
 }
