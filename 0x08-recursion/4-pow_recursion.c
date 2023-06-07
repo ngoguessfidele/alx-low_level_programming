@@ -3,8 +3,7 @@
 /**
  * _pow_recursion- calculates the power
  * @x: base
- * @y: exponent
- * 
+ * @y: exponent 
  * Return: -1, 1 or power
  */
 
