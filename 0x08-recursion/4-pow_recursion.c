@@ -3,8 +3,8 @@
 /**
  * _pow_recursion- calculates the power
  * @x: base
- * @y: exponent 
- * Return: -1, 1 or power
+ * @y: exponent
+ * Return: power on succ and -1
  */
 
 int _pow_recursion(int x, int y)
