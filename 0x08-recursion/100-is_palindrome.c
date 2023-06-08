@@ -26,7 +26,7 @@ int _return(char *s, int len)
 	{
 		return (1);
 	}
-	if (*s == *(s + l))
+	if (*s == *(s + len))
 	{
 		return (_return(s + 1, len - 2));
 	}
