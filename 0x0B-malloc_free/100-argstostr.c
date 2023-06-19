@@ -46,9 +46,7 @@ char *argstostr(int ac, char **av)
 			j = 0;
 		}
 		if (len1 < len - 1)
-		{
 			str[len1] = av[i][j];
-		}
 	}
 	str[len1] = '\0';
 	return (str);
