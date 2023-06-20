@@ -2,13 +2,12 @@
 #include <stdlib.h>
 
 /**
- * init_dog- initialize struct
+ * init_dog - initialize struct
  * @d: struct
  * @name: name
  * @age: age
  * @owner: owner
- *
- * Return: void
+ * Description: struct dog
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
