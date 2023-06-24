@@ -3,14 +3,16 @@
 #include <stdio.h>
 
 /**
- * main- Entry point 
- * @argc: args
- * @argv: array of argv
+ * main- Entry point
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: 0 on success
  */
 
 int main(int argc, char *argv[])
 {
-	char *opcodes = (char*) main;
+	char *opcodes = (char *) main;
 	int n;
 	int i;
 
@@ -28,8 +30,10 @@ int main(int argc, char *argv[])
 	for (i = 0; i < n; i++)
 	{
 		printf("%02x", opcodes[i] & 0xFF);
-		if (i < n - 1);
-		printf(" ");
+		if (i < n - 1)
+		{
+			printf(" ");
+		}
 	}
 	printf("\n");
 	return (0);
