@@ -20,5 +20,5 @@ size_t print_listint(const listint_t *h)
 		printf("%d\n", current->n);
 		count++;
 	}
-	return (count);
+	return (count - 1);
 }
