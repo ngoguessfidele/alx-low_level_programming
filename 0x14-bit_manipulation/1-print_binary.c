@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_binary: print the binary
+ * print_binary- print the binary
  * @n: int to change
  */
 
