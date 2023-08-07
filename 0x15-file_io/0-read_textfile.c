@@ -10,7 +10,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
-	ssize_t bytes;
+	ssize_t bytes1, bytes2;
 	char buf[letters + 1];
 
 	if (filename == NULL)
@@ -21,12 +21,14 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (fd == -1)
 		return (0);
 
-	bytes = read(fd, buf, letters);
+	bytes1 = read(fd, buf, letters);
 	close(fd);
-	if (bytes <= 0)
+	if (bytes1 <= 0)
 		return (0);
-	buf[bytes] = '\0';
-	printf("%s", buf);
+	buf[bytes1] = '\0';
+	bytes2 = write(STDOUT_FILENO, buf, bytes1);
+	if (bytes2 != bytes1)
+		return (0);
 
-	return (bytes);
+	return (bytes1);
 }
